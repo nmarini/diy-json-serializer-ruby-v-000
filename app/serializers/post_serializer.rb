@@ -1,4 +1,4 @@
-class PostSerializer 
+class PostSerializer
   def self.serialize(post)
 
     sreialized_post = '{'
@@ -9,5 +9,5 @@ class PostSerializer
     serialized_post += '"author": {'
     serialized_post += '"name": "' + post.author.name + '"}'
     serialized_post += '}'
-  end 
+  end
 end 
